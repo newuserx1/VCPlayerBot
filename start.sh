@@ -4,7 +4,7 @@ then
   echo "Cloning main branch...."
   git clone https://github.com/newuserx1/VCPlayerBot /VCPlayerBot
 else
-  echo "Cloning $BRANCH branch...."
+  echo "Cloning $BRANCH branch......."
   git clone https://github.com/newuserx1/VCPlayerBot -b $BRANCH /VCPlayerBot
 fi
 cd /VCPlayerBot
