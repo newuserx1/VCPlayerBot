@@ -34,14 +34,14 @@ class Config:
     ADMIN = os.environ.get("ADMINS", '1256202333')
     SUDO = [int(admin) for admin in (ADMIN).split()] # Exclusive for heroku vars configuration.
     ADMINS = [int(admin) for admin in (ADMIN).split()] #group admins will be appended to this list.
-    API_ID = 17810412
-    API_HASH = os.environ.get("API_HASH", "bd9cd7df354fb74e2f9ec88f6ee4de48")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "5927826433:AAEZKlQ8qVG6w8vuLhYy4UFARu_h_lhm_7k")     
-    SESSION = os.environ.get("SESSION_STRING", "BQAXl0Kj8fAOtTfGt3wf0X7xHNOVMT7cvRHmnTTmaPA6xtnvPBwJQpySzL1eAtf-T10zK2573KmMCNto9nGM4VeWVbJBGIdFJRdNl0gDywepDIKfJnJ-25zHsodO7vURhKd9YHQS9dkJwzPDf6yucxIJihcCyBQ6sAUEtPSv8vksp4TO8OU10Hr7alTe7acvyDtYU-18kCl8afIzQK6Z3AyUdsVL37mnrJIxk8AaEA2nssSbRuDB5cBZayZJHVbmVbJAdFmsQeLw4S1SwLL8q92otBf9K9OAi6RDyOw_94gYpRucmVbydkCTPAzz3f328lzNx7tkj1w6fLWacDyNTiIBAAAAAURUXX8A")
+    API_ID = 27747795
+    API_HASH = os.environ.get("API_HASH", "a8b48e9880db88e4150f7f4c772d29a3")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6091664906:AAE3iilpn9c12MWOZVYTTc6UOvd_x9K77Fc")     
+    SESSION = os.environ.get("SESSION_STRING", "BQBYzhxqBxypCvZk225MtE5phFi0_L66KL9xTn5piFBu5fz7dmm-O2A8KzUsQcSIBI0TiTHdhDyvRqx2TyXHSoxpJP_PtkNO0cFeqU4mCdiUkjqsUTvZoJbBHQtv_AQEVCvWPbl4wE016gY9Y6C8OvHS3Luhpju59MtZCMgbZZ995ri50VCAq--92QoCPjuI8O2EWQg3vA9m0UnCGE_Mpizqb3aJF9Lzg2Yg5RXjnEKxFeo60XbBEindEjuXM8oiSkEkEI1dU7XX_HK6P08ZZWPfNuJ_y8xlk_EKkNuYuovrRx0YhdR5fSKckgX-5zm33fNx6vYaIU91iDl6msuT9CWkAAAAAURUXX8A")
 
     #Stream Chat and Log Group
-    CHAT = int(os.environ.get("CHAT", "-1001741057475"))
-    LOG_GROUP=os.environ.get("LOG_GROUP", "-1001576826112")
+    CHAT = int(os.environ.get("CHAT", "-1001445286211"))
+    LOG_GROUP=os.environ.get("LOG_GROUP", "-1001475211176")
 
     #Stream 
     STREAM_URL=os.environ.get("STARTUP_STREAM", "https://www.youtube.com/watch?v=jfKfPfyJRdk")
